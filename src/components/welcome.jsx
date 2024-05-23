@@ -6,7 +6,7 @@ export default function () {
     const [totalCount, setTotalCount] = useState('...')
     useEffect(()=>{
         countAll().then((count)=>{
-            setTotalCount(count)})
+            setTotalCount(count.toLocaleString())})
     }, [])
 
     function handleSubmit(e){
