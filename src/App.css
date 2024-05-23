@@ -1,0 +1,17 @@
+#root {
+  /* width: 100vw;
+  height: 10vh; */
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  margin:0;
+}
+
+.header {
+  width: 100vw;
+  height: 10vh;
+  text-align: start;
+}
+
+button{
+  margin: 5px;
+}

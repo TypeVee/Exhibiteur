@@ -1,0 +1,10 @@
+.window {
+    width:100%;
+    display:flex;
+    flex-direction: column;
+}
+
+.centered {
+    text-align: center;
+    align-self: center;
+}
