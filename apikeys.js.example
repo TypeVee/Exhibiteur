@@ -1,0 +1,3 @@
+export default {
+    Europeana: 'KEY REQUIRED FROM https://pro.europeana.eu/page/apis'
+    }
