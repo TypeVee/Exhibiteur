@@ -1,3 +1,0 @@
-export default {
-    Rijksmuseum: 'KEY REQUIRED FROM https://data.rijksmuseum.nl/object-metadata/api/'
-    }

@@ -1,10 +1,9 @@
-import keys from "../apikeys";
 import axios from "axios";
 
 const apiChicago = "https://api.artic.edu/api/v1/artworks/";
 const apiChicagoFields = "&fields=id,image_id,title,description";
 const apiRijksmuseum = "https://www.rijksmuseum.nl/api/en/collection";
-const apiRijksmuseumKey = keys.Rijksmuseum;
+const apiRijksmuseumKey = import.meta.env.VITE_API_KEY 
 const apiRijksmuseumFields = "&culture=en&imgonly=true&s=relevance";
 
 export const countAll = () => {
