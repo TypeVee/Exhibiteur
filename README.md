@@ -8,7 +8,7 @@ This is primarily built around 2 APIs, Rijksmuseum & The Art Institute of Chicag
 
 In order to use Exhibiteur, you require an API Key provided by Rijksmuseum. The Art institute of Chicago does not require an API key.
 
-Follow the example seen in apikeys.js.example, and create your own apikeys.js in order for this api to function.
+Follow the example seen in .env.example, and create your own .env file in order for this api to function. It should look something like VITE_API_KEY=mG8PRw%g  <-(Not a real API key)
 You must also install the required node modules, through your program of choice (I.E "npm install")
 After this, the website can be run locally under the command "npm run dev" or "vite dev"
 The website can also be built for server usage on the "vite build" command.
